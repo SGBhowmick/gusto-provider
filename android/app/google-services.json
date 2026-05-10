@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1013785429580",
+    "project_id": "dustoprovider",
+    "storage_bucket": "dustoprovider.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013785429580:android:56acadde727fab92b596e9",
+        "android_client_info": {
+          "package_name": "com.r3infosolutions.dustoprovider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0KAne2XOS9Ac05M5turOi7x802SP8IL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
