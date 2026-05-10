@@ -1,23 +1,51 @@
-# on_demand_provider_app
 
-A new Flutter project.
 
-## Getting Started
+# Dusto Provider
 
-FLUTTER SDK: 3.38.9
+Dusto Provider is the service-side application built with Flutter, designed for automotive workshops, mechanics, and roadside assistance teams. It enables service providers to manage incoming requests, track active jobs, and communicate directly with vehicle owners.
 
-User APP: v3.7
-Provider APP: v3.7
-ServiceMan APP: v3.7
+---
 
-This project is a starting point for a Flutter application.
+### 🚀 Key Features
 
-A few resources to get you started if this is your first Flutter project:
+* **Job Management:** Receive, accept, or decline service requests and roadside assistance calls in real-time.
+* **Service Dashboard:** Overview of daily appointments, ongoing repairs, and completed tasks.
+* **Live Navigation:** Integrated GPS to locate customers for on-site repairs or towing services.
+* **Digital Inspection:** Tools to upload photos and notes about vehicle condition for transparent customer reporting.
+* **Invoice Generation:** Create and send digital cost estimates and final bills directly to the user.
+* **Earnings Tracker:** Monitor daily and monthly revenue with detailed transaction history.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🛠 Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
+* Framework: Flutter
+* State Management: BLoC (Business Logic Component)
+* Location Services: Google Maps API for real-time customer tracking.
+* Messaging: In-app chat for direct coordination with vehicle owners.
 
-samples, guidance on mobile development, and a full API reference.
+### 📁 Project Architecture
+
+The provider app focuses on high availability and real-time data sync:
+
+* Presentation Layer: Feature-driven UI for order queues, map views, and profile management using BLoC.
+* Domain Layer: Logic for service availability toggles, status transitions, and price calculations.
+* Data Layer: API integration for job synchronization and real-time location broadcasts.
+
+### 🏁 Quick Start
+
+#### Prerequisites
+
+* Flutter SDK (Latest stable version)
+* Physical device for GPS and camera testing
+
+#### Setup
+
+1. Clone the repo:
+`git clone [https://github.com/SGBhowmick/gusto-provider.git](https://github.com/SGBhowmick/gusto-provider.git)`
+2. Install dependencies:
+`flutter pub get`
+3. Run the app:
+`flutter run`
+
+---
+
+*Helping service experts reach more customers.*
